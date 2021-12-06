@@ -1,0 +1,52 @@
+.listaDeMensagens {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid gray;
+  margin-top: 1rem;
+}
+
+.listaDeMensagens__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid gray;
+}
+
+.listaDeMensagens__item__imagem {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.listaDeMensagens__item__pessoa {
+  margin-right: 1rem;
+}
+
+.listaDeMensagens__item__pessoa__nomePessoa {
+  font-weight: bold;
+  font-size: 1.05rem;
+}
+
+.listaDeMensagens__item__pessoa__mensagem {
+  color: grey;
+}
+
+
+.listaDeMensagens__item__informacoes__tempo {
+  font-size: 0.75rem;
+}
+
+
+.listaDeMensagens__item__informacoes__qtdMensagem {
+  background: green;
+  border-radius: 10px;
+  text-align: center;
+  color: #fdfdfd;
+  padding: 0.1rem;
+}

@@ -1,0 +1,23 @@
+.usuarioAtual {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 80px;
+  padding: 0.5rem;
+}
+
+.usuarioAtual__imagem {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.usuarioAtual__nomePessoa {
+  font-weight: bold;
+  font-size: 1.05rem;
+}
+
+.usuarioAtual__nomeUsuario {
+  color: gray;
+}

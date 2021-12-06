@@ -1,0 +1,15 @@
+.barraDePesquisa {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid gray;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+
+.barraDePesquisa input {
+  width: 80%;
+  background: rgb(184, 183, 183);
+  color: black;
+  height: 2rem;
+  border-radius: 5px;
+}
